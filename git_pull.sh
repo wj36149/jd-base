@@ -31,12 +31,12 @@ isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
 Scripts2URL=https://github.com/shylocks/Loon
 
-if [[ ${WhichDep} == *github* ]]; then
-  ScriptsURL=https://github.com/LXK9301/jd_scripts
-  ShellURL=https://github.com/EvineDeng/jd-base
+if [[ ${WhichDep} == *gitee* ]]; then
+  ScriptsURL=https://gitee.com/lxk0301/jd_scripts
+  ShellURL=https://github.com/wj36149/jd-base
 else
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-  ShellURL=https://gitee.com/evine/jd-base
+  ShellURL=https://github.com/wj36149/jd-base
 fi
 
 ## 更新shell脚本
